@@ -1,15 +1,5 @@
 using System;
 
-// ===== How I went beyond the requirements =====
-// 1. Mood rating: each entry also saves how the user feels (1 to 5).
-// 2. No repeat prompts: all 10 prompts are used once before any repeat.
-// 3. Search: menu option 5 finds entries by a word or date.
-// 4. Safe loading and saving: if the file is missing or in the wrong
-//    format, the program shows a message instead of crashing, and the
-//    current journal is not erased.
-// 5. More prompts: 10 prompts instead of the 5 required.
-// ==============================================
-
 class Program
 {
     static void Main(string[] args)
